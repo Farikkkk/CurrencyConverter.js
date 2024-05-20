@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(41, 150, 114);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(108, 71, 126);
+  color: beige;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 1px 6px #090808cf;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0 4px 3px #0000007a;
+}
+
+#refresh-btn {
+  padding: 5px;
+  margin: 0 120px;
+  font-size: 30px;
+  cursor: pointer;
+  color: beige;
+  transition: all 0.2s ease;
+}
+
+#refresh-btn:hover {
+  color: rgb(48, 48, 62);
+  opacity: 0.5;
+}
+
+.currency-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#currency-first,
+#currency-second {
+  background-color: beige;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+}
+
+#worth-first,
+#worth-second {
+  background-color: beige;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px;
+  text-align: right;
+}
+
+.exchange-rate {
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  font-weight: 700;
+  color: rgb(187, 200, 8);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.favorite-btn,
+.delete-favorite-rate {
+  background-color: beige;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 2px 5px #090808cf;
+  text-align: center;
+  outline: none;
+  transition: all 0.4s ease;
+}
+
+.favorite-btn:hover,
+.delete-favorite-rate:hover {
+  background-color: rgb(48, 48, 62);
+  color: white;
+}
+
+.favorite-rates-container {
+  margin: 15px;
+  text-align: center;
+}
+.favorite-rates-container p {
+  color: rgb(226, 227, 202);
+  font-size: 21px;
+  font-weight: 600;
+}
